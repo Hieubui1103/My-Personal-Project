@@ -1,0 +1,46 @@
+body{
+  background-color: blanchedalmond;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+aside {
+  margin-top: 20px;
+}
+
+table {
+  border-collapse : collapse;
+  margin: 80px auto 40px;
+}
+
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+main {
+  text-align: center;
+  font-size: 25px;
+}
+
+button.solve {
+  margin-left: 41.5%;
+}
+
+button.try{
+  float: right;
+  margin-right: 41.5%;
+}
+
+
+button:hover{
+  border-radius: 50px;
+  color: red;
+  transform: scale(1.2);
+  transition: transform 1s ease;
+}
+
+.temp{
+  pointer-events: none;
+}
